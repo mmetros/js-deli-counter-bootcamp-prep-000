@@ -28,7 +28,6 @@ function currentLine(currentLineOfPeople){
   if(currentLineOfPeople.length === 0){
     return "The line is currently empty."
   } else {
-    console.log(currentLineOfPeople.length)
     for(var i = 0; i < currentLineOfPeople.length; i++){
 
       // we want to manipulate the array to add a number infront of each index

@@ -21,8 +21,6 @@ function nowServing(currentLineOfPeople){
 function currentLine(currentLineOfPeople){
 // copy of currentLineOfPeople
   var currentLineOfPeopleWithNumber = []
-  console.log(currentLineOfPeopleWithNumber)
-
 
 // special case for if there is nobody in line
   if(currentLineOfPeople.length === 0){
